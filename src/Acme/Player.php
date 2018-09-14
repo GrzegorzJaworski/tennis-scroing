@@ -30,4 +30,9 @@ class Player
     {
         $this->points = $points;
     }
+
+    public function getName()
+    {
+        return $this->name;
+    }
 }
